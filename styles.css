@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conte-padre{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.conte-text{
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conte-text > h1{
+    font-size: 3rem;
+    background: linear-gradient(0deg, rgb(43, 255, 248) 0%, rgb(22, 128, 26) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Nosifer', cursive;
+}
+
+.conte-degradado{
+    background: radial-gradient(circle at 20px 20px, transparent 0%, black 200px  );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
